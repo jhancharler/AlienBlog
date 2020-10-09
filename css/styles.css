@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -11,6 +12,81 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Kavivanar', cursive;
     font-weight: normal;
 }
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.rightheader{
+    padding: 0;
+    margin: 0 0 0 1rem;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    margin: 30% 0 0 0;
+    color: #db2cad;
+    font-weight: bold;
+}
+.rightheader p{
+    margin: 0;
+    font-size: 0.8rem;
+}
+nav{
+    padding : 0.5rem 0;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 25%;
+    border-top: 1px solid orchid;
+    border-bottom: 1px solid brown;
+    text-align : center;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+nav a{
+    color: black;
+}
+section{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid orchid;
+}
+article{
+    margin-bottom: 0.2rem;
+}
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer {
+    margin-top: 0.2rem;
+    border-top: 1px solid brown;
+}
+footer p{
+    text-align: center;
+}
+footer ul{
+    margin:0;
+    border:0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    margin: 0 0.4rem;
+}
+
+article img{
+    margin: 0 1rem 1rem 0;
+    border-radius: 1rem;
+    float:left;
+}
+
 h2 {
     font-size: 2rem;
     color: #A51F10;
